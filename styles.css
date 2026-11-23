@@ -762,7 +762,7 @@ textarea {
   color: var(--accent-text);
 }
 
-/* Marca y utilidades */
+/* Serie, Marca y utilidades */
 .back-toc {
   display: inline-block;
   margin-top: 16px;
@@ -774,8 +774,31 @@ textarea {
   font-weight: 800;
 }
 
-.brand-card {
+.next-step-box {
   margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--paper);
+  border: 2px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.next-step-box h3 {
+  font-size: clamp(18px, 2.5vw, 22px);
+}
+
+.series-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.brand-card {
+  margin-top: 16px;
   padding: 22px;
   border-radius: 20px;
   background: var(--paper);
@@ -842,27 +865,4 @@ textarea {
   html {
     scroll-behavior: auto;
   }
-}
-
-.next-step-box {
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 20px;
-  background: var(--paper);
-  border: 2px solid var(--line);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-}
-
-.series-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.next-step-box h3 {
-  font-size: clamp(18px, 2.5vw, 22px);
 }
